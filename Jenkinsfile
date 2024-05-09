@@ -3,7 +3,7 @@ pipeline {
   tools {
         // Specify the name of the Python installation configured in Jenkins
         // This ensures that the required version of Python is available on the agent
-        PythonInstallation python
+        python
     }
   stages {
     stage('version') {
