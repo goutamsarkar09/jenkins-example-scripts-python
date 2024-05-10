@@ -4,12 +4,12 @@ pipeline {
 stages {
     stage('version') {
       steps {
-        python --version'
+        python --version
       }
     }
     stage('hello') {
       steps {
-        python hello.py'
+        python hello.py
       }
     }
   }
