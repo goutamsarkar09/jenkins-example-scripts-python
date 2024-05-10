@@ -4,12 +4,12 @@ pipeline {
 stages {
     stage('version') {
       steps {
-        cmd 'D:\\python\\python.exe --version'
+        python --version'
       }
     }
     stage('hello') {
       steps {
-        cmd 'D:\\python\\python.exe hello.py'
+        python hello.py'
       }
     }
   }
