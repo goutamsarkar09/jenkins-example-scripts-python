@@ -25,7 +25,7 @@ def extract_mail_data(input_file):
         return body_txt
 
 def main1():
-    if len(sys.argv) < 2:
+    if len(sys.argv) < 1:
         print("Usage: python script.py <input_file>")
         sys.exit(1)
     input_file = sys.argv[1]
