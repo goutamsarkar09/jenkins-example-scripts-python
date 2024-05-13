@@ -9,7 +9,8 @@ stages {
     }
     stage('hello') {
       steps {
-        bat 'email_from_txt.py ./email_body.txt'
+        bat script: "email_from_txt.py %ROOT_DIR%"
+       '
       }
     }
   }
