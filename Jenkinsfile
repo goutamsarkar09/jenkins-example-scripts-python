@@ -9,8 +9,7 @@ stages {
     }
     stage('hello') {
       steps {
-        bat script: "email_from_txt.py %ROOT_DIR%"
-       '
+        def result = bat script: "python email_from_txt.py D:\\JPX\\TASK_DAY_WISE\\2024\\email_body.txt", returnStdout: true
       }
     }
   }
