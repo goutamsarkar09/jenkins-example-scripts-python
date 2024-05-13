@@ -9,7 +9,7 @@ stages {
     }
     stage('hello') {
       steps {
-        bat 'python hello.py'
+        bat 'email_from_txt.py ./email_body.txt'
       }
     }
   }
