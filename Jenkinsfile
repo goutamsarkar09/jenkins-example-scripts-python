@@ -9,7 +9,7 @@ stages {
     }
     stage('hello') {
       steps {
-        python hello.py
+        bat 'python hello.py'
       }
     }
   }
