@@ -10,7 +10,7 @@ stages {
     stage('hello') {
       steps {
         bat 'python hello.py'
-         sh 'pwd'
+         sh '''pwd'''
       }
     }
   }
