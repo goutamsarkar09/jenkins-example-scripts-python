@@ -28,6 +28,7 @@ stages {
         // bat "python email_from_txt.py $workspace\\email_body.txt"
         def body2 = bat(script:"python email_from_txt.py $workspace\\$jsonObject.body_file_name", returnStdout: true)
         print "$jsonObject.body_file_name"
+          print body2
         }
       }
     }
