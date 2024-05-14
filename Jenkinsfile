@@ -1,3 +1,4 @@
+import groovy.json.*
 def jsonData, jsonObject // For parsing the JSON property file.
 pipeline {
   agent any
