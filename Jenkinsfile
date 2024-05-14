@@ -7,8 +7,7 @@ stages {
             steps {
                 script 
                 {
-                    FAILED_STAGE = "${STAGE_NAME}"
-                    // Read the JSON data from the file:
+                  // Read the JSON data from the file:
                     jsonData = readFile("$workspace\\jenkins_properties.json).trim()
 
                     // Parse the JSON data into a Groovy object: 
