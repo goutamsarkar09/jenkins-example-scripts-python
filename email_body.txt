@@ -3,7 +3,7 @@ TO: Application Team
  
 This is reminder mail.
  
-Friday is release due date for [C13.0.003: HOKKE(GDB) on May 13].
+Friday is release due date for [X13.0.003: XXXX(XX) on May 13].
  
 <Request>
 Please don't forget to commit before you go home.
